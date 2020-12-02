@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.cardModal {
+  width: 800px;
+  height: 400px;
+  background: transparent;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+}
+
+.cardModal_left {
+  width: 40%;
+  height: 460px;
+  float: left;
+  overflow: hidden;
+  background: transparent;
+}
+
+.cardModal_left img {
+  width: 100%;
+  height: 460px;
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  position: relative;
+}
+
+.cardModal_right {
+  width: 60%;
+  float: left;
+  background: #000000;
+  height: 460px;
+  border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+}
+
+.cardModal_right h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 30px;
+  margin: 30px 0 0 0;
+  padding: 0 0 0 40px;
+  letter-spacing: 1px;
+}
+
+.cardModal_right__details ul {
+  list-style-type: none;
+  padding: 0 0 0 40px;
+  margin: 10px 0 0 0;
+}
+
+.cardModal_right__details ul li {
+  display: inline;
+  color: #e3e3e3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 40px 0 0;
+}
+
+.cardModal_right__rating__stars {
+  position: relative;
+  right: 160px;
+  margin: 10px 0 10px 0;
+  /***** CSS Magic to Highlight Stars on Hover *****/
+  /* hover previous stars in list */
+}
+
+.cardModal_right__rating__stars fieldset,
+.cardModal_right__rating__stars label {
+  margin: 0;
+  padding: 0;
+}
+
+.cardModal_right__rating__stars .rating {
+  border: none;
+}
+
+.cardModal_right__rating__stars .rating > input {
+  display: none;
+}
+
+.cardModal_right__rating__stars .rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  display: inline-block;
+  content: '\f005';
+  font-family: FontAwesome;
+}
+
+.cardModal_right__rating__stars .rating > .half:before {
+  content: '\f089';
+  position: absolute;
+}
+
+.cardModal_right__rating__stars .rating > label {
+  color: #ddd;
+  float: left;
+}
+
+.cardModal_right__rating__stars .rating > input:checked ~ label,
+.cardModal_right__rating__stars .rating:not(:checked) > label,
+.cardModal_right__rating__stars .rating:not(:checked) > label ~ label {
+  color: #ffd700;
+}
+
+.cardModal_right__rating__stars .rating > input:checked + label:hover,
+.cardModal_right__rating__stars .rating > input:checked ~ label:hover,
+.cardModal_right__rating__stars .rating > label:hover ~ input:checked ~ label,
+.cardModal_right__rating__stars .rating > input:checked ~ label:hover ~ label {
+  color: #ffed85;
+}
+
+.cardModal_right__review p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding: 0 40px 0 40px;
+  letter-spacing: 1px;
+  margin: 10px 0 10px 0;
+  line-height: 20px;
+}
+
+.cardModal_right__review a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding: 0 0 0 40px;
+  color: #ffda00;
+  margin: 0;
+}
+
+.cardModal_right__button {
+  padding: 0 0 0 40px;
+  margin: 30px 0 0 0;
+}
+
+.cardModal_right__button a {
+  color: #ffda00;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #ffda00;
+  padding: 10px 10px 10px 40px;
+  font-size: 12px;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/343086/COMdoWZ.png);
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: 7% 50%;
+  border-radius: 5px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.cardModal_right__button a:hover {
+  color: #000000;
+  background-color: #ffda00;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/343086/rFQ5dHA.png);
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}

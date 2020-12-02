@@ -1,0 +1,25 @@
+/* Alerta Erro
+        ----------------------------------------------- */
+/* Geral */
+
+.alerta {
+  padding: 25px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-top: 5%;
+  width: 200px;
+}
+
+.error {
+  border-color: #e8273b;
+  color: #fff;
+  background-color: #ed5565;
+}
+
+.sucesso {
+  border-color: #87c940;
+  color: #fff;
+  background-color: #a0d468;
+}

@@ -1,0 +1,130 @@
+body {
+  background-image: url(../projetor.png);
+  background-repeat: no-repeat;
+
+  background-position: 30% 55%;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.formulario {
+  position: absolute;
+  height: 500px;
+
+  margin: 0 auto;
+  margin-left: 60%;
+  margin-top: 5%;
+
+  background: #ffffff;
+  border: 20px solid #f5a127;
+  box-sizing: border-box;
+}
+
+.formulario-cadastro {
+  position: absolute;
+  height: 550px;
+
+  margin: 0 auto;
+  margin-left: 60%;
+  margin-top: 3%;
+
+  background: #ffffff;
+  border: 20px solid #f5a127;
+  box-sizing: border-box;
+}
+
+.formulario-perfil {
+  position: absolute;
+  height: 500px;
+
+  margin: 0 auto;
+  margin-top: 3%;
+
+  background: #ffffff;
+  border: 20px solid #f5a127;
+  box-sizing: border-box;
+}
+
+.formulario-filmes {
+  position: absolute;
+  height: 850px;
+
+  margin: 0 auto;
+  margin-top: 3%;
+
+  background: #ffffff;
+  border: 20px solid #f5a127;
+  box-sizing: border-box;
+}
+
+.dados {
+  background: #c9c9c9;
+  border-radius: 78px;
+  border: 0 none;
+  box-shadow: 0 0 0 0;
+}
+.dados:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+:-moz-placeholder {
+  text-align: center;
+}
+.botao {
+  background: #f5a127;
+  border-radius: 78px;
+  border: 0 none;
+  box-shadow: 0 0 0 0;
+
+  height: 40px;
+  width: 100px;
+
+  margin-left: 20%;
+}
+
+.botao-cadastro {
+  background: #f5a127;
+  border-radius: 78px;
+  border: 0 none;
+  box-shadow: 0 0 0 0;
+
+  height: 40px;
+  width: 120px;
+
+  margin-left: 18%;
+}
+
+.botao:focus,
+.botao-cadastro:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+label {
+  font-size: 15pt;
+}
+
+.login {
+  margin-left: 40%;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.cadastro {
+  margin-left: 38%;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.cadastro-filmes {
+  margin-left: 28%;
+  font-weight: bold;
+  font-size: 20pt;
+}
