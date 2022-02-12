@@ -19,9 +19,6 @@ function rotas($pagina)
         case 'logout':
             require 'pages/logout.php';
             break;
-        case 'cu':
-            require 'pages/cu.php';
-            break;
         case 'list':
             require 'pages/listFilmes.php';
             break;
